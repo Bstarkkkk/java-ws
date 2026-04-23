@@ -112,9 +112,9 @@ public class App {
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nznz.sss.xx.kg:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "XTXYqxCUxIxcgN1fK9hR2ilwt2NVK8yJ");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "sgp1.bytenut.cc:3200");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "bytenut-sg.ocd.pp.ua");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "Bytenut");
+        NAME = getEnvValue(envFromFile, "NAME", "Bytenut-SG");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
